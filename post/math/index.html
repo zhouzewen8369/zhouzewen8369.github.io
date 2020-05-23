@@ -1,20 +1,13 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>math | zhouzw</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://zhouzewen8369.github.io//favicon.ico?v=1590204775404">
+<link rel="shortcut icon" href="https://zhouzewen8369.github.io//favicon.ico?v=1590205665932">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://zhouzewen8369.github.io//styles/main.css">
-
-
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<link rel="alternate" type="application/atom+xml" title="math | zhouzw - Atom Feed" href="https://zhouzewen8369.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
@@ -23,101 +16,82 @@
 导数和微分的概念
 f′(x0)=lim⁡Δx→0 f(x0+Δx)−f(x0)Δxf&#x27;({{x}_{0}})=\underset{\Delta x\to 0}{\mathop{\lim }}\,\frac..." />
     <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://zhouzewen8369.github.io/">
-        <img src="https://zhouzewen8369.github.io//images/avatar.png?v=1590204775404" class="site-logo">
-        <h1 class="site-title">zhouzw</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://zhouzewen8369.github.io/">
+  <img class="avatar" src="https://zhouzewen8369.github.io//images/avatar.png?v=1590205665932" alt="">
+  </a>
+  <h1 class="site-title">
+    zhouzw
+  </h1>
+  <p class="site-description">
+    多动手多思考
+  </p>
+  <div class="menu-container">
+    
       
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
+        <a href="/" class="menu">
+          首页
+        </a>
       
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
+    
       
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
+        <a href="/archives" class="menu">
+          归档
+        </a>
       
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
+    
       
-    </div>
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
+  <div class="social-container">
+    
       
-        
-          <a class="social-link" href="https://github.com/zhouzewen8369" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
+    
       
-        
-          <a class="social-link" href="https://space.bilibili.com/21296246/dynamic" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-        
+    
       
-        
-          <a class="social-link" href="https://weibo.com/p/1005053977005684/home?from=page_100505&amp;mod=TAB&amp;is_all=1#place" target="_blank">
-            <i class="fab fa-weibo"></i>
-          </a>
-        
+    
       
-        
-          <a class="social-link" href="https://www.zhihu.com/people/zhou_zw" target="_blank">
-            <i class="fab fa-zhihu"></i>
-          </a>
-        
+    
       
-        
-          <a class="social-link" href="https://www.douban.com/people/175087689/" target="_blank">
-            <i class="fab fa-facebook"></i>
-          </a>
-        
-      
-    </div>
-    <div class="site-description">
-      多动手多思考
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://zhouzewen8369.github.io//atom.xml" target="_blank">RSS</a>
-    </div>
+    
   </div>
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">math</h2>
-            <div class="post-date">2020-05-23</div>
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              math
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-05-23
+              </span>
+              <span>
+                101 min read
+              </span>
+              
+            </div>
             
-            <div class="post-content" v-pre>
-              <h3 id="高等数学">高等数学</h3>
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h3 id="高等数学">高等数学</h3>
 <h4 id="1导数定义">1.导数定义：</h4>
 <p>导数和微分的概念</p>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>f</mi><mo mathvariant="normal">′</mo></msup><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>)</mo><mo>=</mo><msub><mo><mo><mi>lim</mi><mo>⁡</mo></mo></mo><mrow><mi mathvariant="normal">Δ</mi><mi>x</mi><mo>→</mo><mn>0</mn></mrow></msub><mtext> </mtext><mfrac><mrow><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>+</mo><mi mathvariant="normal">Δ</mi><mi>x</mi><mo>)</mo><mo>−</mo><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>)</mo></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>x</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">f&#x27;({{x}_{0}})=\underset{\Delta x\to 0}{\mathop{\lim }}\,\frac{f({{x}_{0}}+\Delta x)-f({{x}_{0}})}{\Delta x}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.001892em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.751892em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord"><span class="mord"><span class="mord mathdefault">x</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.754331em;vertical-align:-0.744331em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-2.055669em;margin-left:0em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">Δ</span><span class="mord mathdefault mtight">x</span><span class="mrel mtight">→</span><span class="mord mtight">0</span></span></span></span><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span><span class="mop"><span class="mop"><span class="mop">lim</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.744331em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.01em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">Δ</span><span class="mord mathdefault mtight">x</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span><span class="mopen mtight">(</span><span class="mord mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">x</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span><span class="mbin mtight">+</span><span class="mord mtight">Δ</span><span class="mord mathdefault mtight">x</span><span class="mclose mtight">)</span><span class="mbin mtight">−</span><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span><span class="mopen mtight">(</span><span class="mord mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">x</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> （1）</p>
@@ -828,50 +802,126 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <p>(3) 对于<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>F</mi><mover accent="true"><mtext> </mtext><mo>~</mo></mover><mi>F</mi><mo>(</mo><mi>m</mi><mo separator="true">,</mo><mi>n</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">F\tilde{\ }F(m,n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6678599999999999em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mspace"> </span></span></span><span style="top:-3.35em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;">~</span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="mopen">(</span><span class="mord mathdefault">m</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span><span class="mclose">)</span></span></span></span>，有 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mi>F</mi></mfrac><mo>∼</mo><mi>F</mi><mo>(</mo><mi>n</mi><mo separator="true">,</mo><mi>m</mi><mo>)</mo><mo separator="true">,</mo><msub><mi>F</mi><mrow><mi>a</mi><mi mathvariant="normal">/</mi><mn>2</mn></mrow></msub><mo>(</mo><mi>m</mi><mo separator="true">,</mo><mi>n</mi><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mrow><msub><mi>F</mi><mrow><mn>1</mn><mo>−</mo><mi>a</mi><mi mathvariant="normal">/</mi><mn>2</mn></mrow></msub><mo>(</mo><mi>n</mi><mo separator="true">,</mo><mi>m</mi><mo>)</mo></mrow></mfrac><mo separator="true">;</mo></mrow><annotation encoding="application/x-tex">\frac{1}{F}\sim F(n,m),F_{a/2}(m,n) = \frac{1}{F_{1 - a/2}(n,m)};</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">F</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">∼</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.1052em;vertical-align:-0.3551999999999999em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">m</span><span class="mclose">)</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.34480000000000005em;"><span style="top:-2.5198em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">a</span><span class="mord mtight">/</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3551999999999999em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathdefault">m</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.448748em;vertical-align:-0.60364em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3447999999999998em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5357142857142856em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mbin mtight">−</span><span class="mord mathdefault mtight">a</span><span class="mord mtight">/</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3694857142857143em;"><span></span></span></span></span></span></span><span class="mopen mtight">(</span><span class="mord mathdefault mtight">n</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight">m</span><span class="mclose mtight">)</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.60364em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mpunct">;</span></span></span></span></p>
 <p>(4) 对于任意总体<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>X</mi></mrow><annotation encoding="application/x-tex">X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">X</span></span></span></span>，有 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>E</mi><mo>(</mo><mover accent="true"><mi>X</mi><mo stretchy="true">‾</mo></mover><mo>)</mo><mo>=</mo><mi>E</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo separator="true">,</mo><mi>E</mi><mo>(</mo><msup><mi>S</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mi>D</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo separator="true">,</mo><mi>D</mi><mo>(</mo><mover accent="true"><mi>X</mi><mo stretchy="true">‾</mo></mover><mo>)</mo><mo>=</mo><mfrac><mrow><mi>D</mi><mo>(</mo><mi>X</mi><mo>)</mo></mrow><mi>n</mi></mfrac></mrow><annotation encoding="application/x-tex">E(\overline{X}) = E(X),E(S^{2}) = D(X),D(\overline{X}) = \frac{D(X)}{n}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.13333em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mopen">(</span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="mclose">)</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.13333em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="mclose">)</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mopen">(</span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.355em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.01em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">n</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">D</span><span class="mopen mtight">(</span><span class="mord mathdefault mtight" style="margin-right:0.07847em;">X</span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
 
-            </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://zhouzewen8369.github.io/post/about/">
-                  <h3 class="post-title">
-                    关于
-                  </h3>
-                </a>
               </div>
-            
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6">高等数学</a>
+<ul>
+<li><a href="#1%E5%AF%BC%E6%95%B0%E5%AE%9A%E4%B9%89">1.导数定义：</a></li>
+<li><a href="#2%E5%B7%A6%E5%8F%B3%E5%AF%BC%E6%95%B0%E5%AF%BC%E6%95%B0%E7%9A%84%E5%87%A0%E4%BD%95%E6%84%8F%E4%B9%89%E5%92%8C%E7%89%A9%E7%90%86%E6%84%8F%E4%B9%89">2.左右导数导数的几何意义和物理意义</a></li>
+<li><a href="#3%E5%87%BD%E6%95%B0%E7%9A%84%E5%8F%AF%E5%AF%BC%E6%80%A7%E4%B8%8E%E8%BF%9E%E7%BB%AD%E6%80%A7%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB">3.函数的可导性与连续性之间的关系</a></li>
+<li><a href="#4%E5%B9%B3%E9%9D%A2%E6%9B%B2%E7%BA%BF%E7%9A%84%E5%88%87%E7%BA%BF%E5%92%8C%E6%B3%95%E7%BA%BF">4.平面曲线的切线和法线</a></li>
+<li><a href="#5%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E6%B3%95%E5%88%99">5.四则运算法则</a></li>
+<li><a href="#6%E5%9F%BA%E6%9C%AC%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86%E8%A1%A8">6.基本导数与微分表</a></li>
+<li><a href="#7%E5%A4%8D%E5%90%88%E5%87%BD%E6%95%B0%E5%8F%8D%E5%87%BD%E6%95%B0%E9%9A%90%E5%87%BD%E6%95%B0%E4%BB%A5%E5%8F%8A%E5%8F%82%E6%95%B0%E6%96%B9%E7%A8%8B%E6%89%80%E7%A1%AE%E5%AE%9A%E7%9A%84%E5%87%BD%E6%95%B0%E7%9A%84%E5%BE%AE%E5%88%86%E6%B3%95">7.复合函数，反函数，隐函数以及参数方程所确定的函数的微分法</a></li>
+<li><a href="#8%E5%B8%B8%E7%94%A8%E9%AB%98%E9%98%B6%E5%AF%BC%E6%95%B0%E5%85%AC%E5%BC%8F">8.常用高阶导数公式</a></li>
+<li><a href="#9%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E6%B3%B0%E5%8B%92%E5%85%AC%E5%BC%8F">9.微分中值定理，泰勒公式</a></li>
+<li><a href="#10%E6%B4%9B%E5%BF%85%E8%BE%BE%E6%B3%95%E5%88%99">10.洛必达法则</a></li>
+<li><a href="#11%E6%B3%B0%E5%8B%92%E5%85%AC%E5%BC%8F">11.泰勒公式</a></li>
+<li><a href="#12%E5%87%BD%E6%95%B0%E5%8D%95%E8%B0%83%E6%80%A7%E7%9A%84%E5%88%A4%E6%96%AD">12.函数单调性的判断</a></li>
+<li><a href="#13%E6%B8%90%E8%BF%91%E7%BA%BF%E7%9A%84%E6%B1%82%E6%B3%95">13.渐近线的求法</a></li>
+<li><a href="#14%E5%87%BD%E6%95%B0%E5%87%B9%E5%87%B8%E6%80%A7%E7%9A%84%E5%88%A4%E6%96%AD">14.函数凹凸性的判断</a></li>
+<li><a href="#15%E5%BC%A7%E5%BE%AE%E5%88%86">15.弧微分</a></li>
+<li><a href="#16%E6%9B%B2%E7%8E%87">16.曲率</a></li>
+<li><a href="#17%E6%9B%B2%E7%8E%87%E5%8D%8A%E5%BE%84">17.曲率半径</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0">线性代数</a>
+<ul>
+<li><a href="#%E8%A1%8C%E5%88%97%E5%BC%8F">行列式</a></li>
+<li><a href="#%E7%9F%A9%E9%98%B5">矩阵</a></li>
+<li><a href="#%E5%90%91%E9%87%8F">向量</a></li>
+<li><a href="#%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">线性方程组</a></li>
+<li><a href="#%E7%9F%A9%E9%98%B5%E7%9A%84%E7%89%B9%E5%BE%81%E5%80%BC%E5%92%8C%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F">矩阵的特征值和特征向量</a></li>
+<li><a href="#%E4%BA%8C%E6%AC%A1%E5%9E%8B">二次型</a></li>
+</ul>
+</li>
+<li><a href="#%E6%A6%82%E7%8E%87%E8%AE%BA%E5%92%8C%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1">概率论和数理统计</a>
+<ul>
+<li><a href="#%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6%E5%92%8C%E6%A6%82%E7%8E%87">随机事件和概率</a></li>
+<li><a href="#%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83">随机变量及其概率分布</a></li>
+<li><a href="#%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83">多维随机变量及其分布</a></li>
+<li><a href="#%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%9A%84%E6%95%B0%E5%AD%97%E7%89%B9%E5%BE%81">随机变量的数字特征</a></li>
+<li><a href="#%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5">数理统计的基本概念</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
-            
-
-          </div>
-
+              </div>
+            </div>
+          </article>
         </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://zhouzewen8369.github.io/post/about/">
+              <h3 class="post-title">
+                关于
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://zhouzewen8369.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
       </div>
     </div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
+    <script>
+      hljs.initHighlightingOnLoad()
 
-AOS.init();
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
 
-</script>
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
 
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
 
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
-
-
-
-
+    </script>
   </body>
 </html>
