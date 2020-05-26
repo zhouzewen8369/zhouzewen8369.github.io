@@ -1,13 +1,20 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>MarkDown基础【转自B站】 | zhouzw</title>
-<link rel="shortcut icon" href="https://zhouzewen8369.github.io//favicon.ico?v=1590498356651">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://zhouzewen8369.github.io//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="MarkDown基础【转自B站】 | zhouzw - Atom Feed" href="https://zhouzewen8369.github.io//atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="http://localhost:4001/favicon.ico?v=1590498750112">
+<link rel="stylesheet" href="http://localhost:4001/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
@@ -26,82 +33,101 @@ up主分享的原文
 六级标题使用6个#
 #..." />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://zhouzewen8369.github.io/">
-  <img class="avatar" src="https://zhouzewen8369.github.io//images/avatar.png?v=1590498356651" alt="">
-  </a>
-  <h1 class="site-title">
-    zhouzw
-  </h1>
-  <p class="site-description">
-    多动手多思考
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://localhost:4001">
+        <img src="http://localhost:4001/images/avatar.png?v=1590498750112" class="site-logo">
+        <h1 class="site-title">zhouzw</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
+          <a class="social-link" href="https://github.com/zhouzewen8369" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
       
-    
+        
+          <a class="social-link" href="https://space.bilibili.com/21296246/dynamic" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        
       
-    
+        
+          <a class="social-link" href="https://weibo.com/p/1005053977005684/home?from=page_100505&amp;mod=TAB&amp;is_all=1#place" target="_blank">
+            <i class="fab fa-weibo"></i>
+          </a>
+        
       
-    
+        
+          <a class="social-link" href="https://www.zhihu.com/people/zhou_zw" target="_blank">
+            <i class="fab fa-zhihu"></i>
+          </a>
+        
       
-    
+        
+          <a class="social-link" href="https://www.douban.com/people/175087689/" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        
+      
+    </div>
+    <div class="site-description">
+      多动手多思考
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://localhost:4001/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              MarkDown基础【转自B站】
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-05-26
-              </span>
-              <span>
-                17 min read
-              </span>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">MarkDown基础【转自B站】</h2>
+            <div class="post-date">2020-05-26</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p><a href="https://www.bilibili.com/video/BV1C7411V7SF">转自B站</a></p>
+            <div class="post-content" v-pre>
+              <p><a href="https://www.bilibili.com/video/BV1C7411V7SF">转自B站</a></p>
 <h1 id="up主分享的原文">up主分享的原文</h1>
 <p><a href="https://www.bilibili.com/video/av87982836#reply2366896129">基础篇视频讲解链接</a><br>
 <a href="https://www.bilibili.com/video/av88551739/">画图篇视频讲解链接</a></p>
@@ -855,181 +881,45 @@ end
 
 </code></pre>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li><a href="#up%E4%B8%BB%E5%88%86%E4%BA%AB%E7%9A%84%E5%8E%9F%E6%96%87">up主分享的原文</a>
-<ul>
-<li><a href="#%E6%A0%87%E9%A2%98">标题</a></li>
-</ul>
-</li>
-<li><a href="#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98%E4%BD%BF%E7%94%A81%E4%B8%AA">一级标题使用1个#</a>
-<ul>
-<li><a href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98%E4%BD%BF%E7%94%A82%E4%B8%AA">二级标题使用2个#</a>
-<ul>
-<li><a href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98%E4%BD%BF%E7%94%A83%E4%B8%AA">三级标题使用3个#</a>
-<ul>
-<li><a href="#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98%E4%BD%BF4%E7%94%A8%E4%B8%AA">四级标题使4用个#</a>
-<ul>
-<li><a href="#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98%E4%BD%BF%E7%94%A85%E4%B8%AA">五级标题使用5个#</a>
-<ul>
-<li><a href="#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98%E4%BD%BF%E7%94%A86%E4%B8%AA">六级标题使用6个#</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#%E6%96%87%E5%AD%97">文字</a>
-<ul>
-<li><a href="#%E5%88%A0%E9%99%A4%E7%BA%BF">删除线</a></li>
-<li><a href="#%E6%96%9C%E4%BD%93">斜体</a></li>
-<li><a href="#%E5%8A%A0%E7%B2%97">加粗</a></li>
-<li><a href="#%E6%96%9C%E4%BD%93%E5%8A%A0%E7%B2%97">斜体+加粗</a></li>
-<li><a href="#%E4%B8%8B%E5%88%92%E7%BA%BF">下划线</a></li>
-<li><a href="#%E9%AB%98%E4%BA%AE%E9%9C%80%E5%8B%BE%E9%80%89%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95">高亮（需勾选扩展语法）</a></li>
-<li><a href="#%E4%B8%8B%E6%A0%87%E9%9C%80%E5%8B%BE%E9%80%89%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95">下标（需勾选扩展语法）</a></li>
-<li><a href="#%E4%B8%8A%E6%A0%87%E9%9C%80%E5%8B%BE%E9%80%89%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95">上标（需勾选扩展语法）</a></li>
-<li><a href="#%E8%A1%A8%E6%83%85%E7%AC%A6%E5%8F%B7">表情符号</a>
-<ul>
-<li><a href="#%E4%B8%80%E4%BA%9B%E8%A1%A8%E6%83%85%E4%BE%8B%E5%AD%90">一些表情例子</a></li>
-</ul>
-</li>
-<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li>
-</ul>
-</li>
-<li><a href="#%E5%BC%95%E7%94%A8">引用</a></li>
-<li><a href="#%E5%88%97%E8%A1%A8">列表</a>
-<ul>
-<li><a href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8-%E7%AC%A6%E5%8F%B7-%E7%A9%BA%E6%A0%BC">无序列表--符号 空格</a></li>
-<li><a href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8-%E6%95%B0%E5%AD%97-%E7%A9%BA%E6%A0%BC">有序列表--数字 <code>.</code> 空格</a></li>
-</ul>
-</li>
-<li><a href="#%E4%BB%A3%E7%A0%81">代码</a>
-<ul>
-<li><a href="#%E4%BB%A3%E7%A0%81%E5%9D%97">代码块</a></li>
-<li><a href="#%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81">行内代码</a></li>
-<li><a href="#%E8%BD%AC%E6%8D%A2%E8%A7%84%E5%88%99">转换规则</a></li>
-</ul>
-</li>
-<li><a href="#%E5%88%86%E9%9A%94%E7%BA%BF">分隔线</a></li>
-<li><a href="#%E8%B7%B3%E8%BD%AC">跳转</a>
-<ul>
-<li><a href="#%E5%A4%96%E9%83%A8%E8%B7%B3%E8%BD%AC-%E8%B6%85%E9%93%BE%E6%8E%A5">外部跳转--超链接</a></li>
-<li><a href="#%E5%86%85%E9%83%A8%E8%B7%B3%E8%BD%AC-%E6%9C%AC%E6%96%87%E4%BB%B6%E5%86%85%E8%B7%B3typora%E6%94%AF%E6%8C%81">内部跳转--本文件内跳（Typora支持）</a></li>
-<li><a href="#%E8%87%AA%E5%8A%A8%E9%93%BE%E6%8E%A5">自动链接</a></li>
-</ul>
-</li>
-<li><a href="#%E5%9B%BE%E7%89%87">图片</a>
-<ul>
-<li><a href="#%E7%BD%91%E4%B8%8A%E7%9A%84%E5%9B%BE%E7%89%87">网上的图片</a></li>
-<li><a href="#%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87">本地图片</a></li>
-</ul>
-</li>
-<li><a href="#%E5%88%A9%E7%94%A8markdown%E7%94%BB%E5%9B%BE%E9%9C%80%E5%8B%BE%E9%80%89%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95">利用Markdown画图（需勾选扩展语法）</a>
-<ul>
-<li><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BEgraph">流程图(graph)</a>
-<ul>
-<li><a href="#%E6%A6%82%E8%BF%B0">概述</a></li>
-<li><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BE%E5%B8%B8%E7%94%A8%E7%AC%A6%E5%8F%B7%E5%8F%8A%E5%90%AB%E4%B9%89">流程图常用符号及含义</a>
-<ul>
-<li><a href="#%E8%8A%82%E7%82%B9%E5%BD%A2%E7%8A%B6">节点形状</a></li>
-<li><a href="#%E8%BF%9E%E7%BA%BF">连线</a></li>
-<li><a href="#%E5%AD%90%E5%9B%BE%E8%A1%A8">子图表</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#%E5%BA%8F%E5%88%97%E5%9B%BEsequence-diagram">序列图(sequence diagram)</a>
-<ul>
-<li><a href="#%E6%A6%82%E8%BF%B0-2">概述</a></li>
-<li><a href="#%E5%8F%82%E4%B8%8E%E8%80%85participant">参与者（participant）</a></li>
-<li><a href="#%E6%B6%88%E6%81%AF%E7%BA%BF">消息线</a></li>
-<li><a href="#%E5%A4%84%E7%90%86%E4%B8%AD-%E6%BF%80%E6%B4%BB%E6%A1%86">处理中-激活框</a></li>
-<li><a href="#%E6%B3%A8%E8%A7%A3note">注解（note）</a></li>
-<li><a href="#%E5%BE%AA%E7%8E%AFloop">循环（loop）</a></li>
-<li><a href="#%E9%80%89%E6%8B%A9alt">选择（alt）</a></li>
-<li><a href="#%E5%8F%AF%E9%80%89opt">可选（opt）</a></li>
-<li><a href="#%E5%B9%B6%E8%A1%8Cpar">并行（Par）</a></li>
-</ul>
-</li>
-<li><a href="#%E9%A5%BC%E5%9B%BEpie">饼图（Pie）</a></li>
-<li><a href="#%E7%94%98%E7%89%B9%E5%9B%BEgantt">甘特图（gantt）</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-              </div>
             </div>
-          </article>
-        </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://localhost:4001/post/5-23/">
+                  <h3 class="post-title">
+                    日常
+                  </h3>
+                </a>
+              </div>
+            
 
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://zhouzewen8369.github.io/post/5-23/">
-              <h3 class="post-title">
-                日常
-              </h3>
-            </a>
+            
+
           </div>
-        
 
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://zhouzewen8369.github.io//atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+        </div>
       </div>
     </div>
 
-    <script>
-      hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+AOS.init();
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+</script>
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
+
+
+
   </body>
 </html>

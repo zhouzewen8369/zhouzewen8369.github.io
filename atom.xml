@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zhouzewen8369.github.io/</id>
+    <id>http://localhost:4001</id>
     <title>zhouzw</title>
-    <updated>2020-05-26T13:06:02.567Z</updated>
+    <updated>2020-05-26T13:12:36.616Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zhouzewen8369.github.io/"/>
-    <link rel="self" href="https://zhouzewen8369.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4001"/>
+    <link rel="self" href="http://localhost:4001/atom.xml"/>
     <subtitle>多动手多思考</subtitle>
-    <logo>https://zhouzewen8369.github.io/images/avatar.png</logo>
-    <icon>https://zhouzewen8369.github.io/favicon.ico</icon>
+    <logo>http://localhost:4001/images/avatar.png</logo>
+    <icon>http://localhost:4001/favicon.ico</icon>
     <rights>All rights reserved 2020, zhouzw</rights>
     <entry>
         <title type="html"><![CDATA[Markdown自己练习]]></title>
-        <id>https://zhouzewen8369.github.io/post/markdown-zi-ji-lian-xi/</id>
-        <link href="https://zhouzewen8369.github.io/post/markdown-zi-ji-lian-xi/">
+        <id>http://localhost:4001/post/markdown-zi-ji-lian-xi/</id>
+        <link href="http://localhost:4001/post/markdown-zi-ji-lian-xi/">
         </link>
         <updated>2020-05-26T13:03:22.000Z</updated>
         <content type="html"><![CDATA[<h1 id="learn-markdown-各种语法">Learn-Markdown 各种语法</h1>
@@ -24,12 +24,12 @@
 <li>爱的世界了哈</li>
 </ol>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3492943"><label class="task-list-item-label" for="task-item-3492943"> 待办事项</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4732173"> 已完成<br>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6160106"><label class="task-list-item-label" for="task-item-6160106"> 待办事项</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2316724"> 已完成<br>
 百度搜索 <a href="http://baidu.com/">link</a><br>
 图片<img src="https://sdfestaticassets-us-east-1.sciencedirectassets.com/shared-assets/24/images/elsevier-non-solus-new-grey.svg" alt="Alt"  /><br>
 单行代码 <code>import numpy as np</code><br>
-<label class="task-list-item-label" for="task-item-4732173"> 已完成
+<label class="task-list-item-label" for="task-item-2316724"> 已完成
 百度搜索 [link](http://baidu.com/)
 图片<img src="https://sdfestaticassets-us-east-1.sciencedirectassets.com/shared-assets/24/images/elsevier-non-solus-new-grey.svg" alt="Alt"  />
 单行代码 `import numpy as np`
@@ -100,8 +100,8 @@ n\in\mathbb N</annotation></semantics></math></span><span class="katex-html" ari
 <li>thehhehgrteret</li>
 </ul>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3665010"><label class="task-list-item-label" for="task-item-3665010">  dfarr</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8417119"><label class="task-list-item-label" for="task-item-8417119">  dafd</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2120613"><label class="task-list-item-label" for="task-item-2120613">  dfarr</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9233335"><label class="task-list-item-label" for="task-item-9233335">  dafd</label></li>
 </ul>
 <blockquote>
 <p>dafdasf</p>
@@ -121,7 +121,7 @@ n\in\mathbb N</annotation></semantics></math></span><span class="katex-html" ari
 </tbody>
 </table>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1121695"><label class="task-list-item-label" for="task-item-1121695"> 列表</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8277173"><label class="task-list-item-label" for="task-item-8277173"> 列表</label></li>
 </ul>
 <h1 id="自己练习的画图">自己练习的画图</h1>
 <h2 id="流程图">流程图</h2>
@@ -159,8 +159,8 @@ havetime-.没有.-&gt;心痒痒,下次吧-.-&gt;jieshu
     </entry>
     <entry>
         <title type="html"><![CDATA[MarkDown基础【转自B站】]]></title>
-        <id>https://zhouzewen8369.github.io/post/markdown-ji-chu/</id>
-        <link href="https://zhouzewen8369.github.io/post/markdown-ji-chu/">
+        <id>http://localhost:4001/post/markdown-ji-chu/</id>
+        <link href="http://localhost:4001/post/markdown-ji-chu/">
         </link>
         <updated>2020-05-26T12:54:58.000Z</updated>
         <content type="html"><![CDATA[<p><a href="https://www.bilibili.com/video/BV1C7411V7SF">转自B站</a></p>
@@ -920,8 +920,8 @@ end
     </entry>
     <entry>
         <title type="html"><![CDATA[日常]]></title>
-        <id>https://zhouzewen8369.github.io/post/5-23/</id>
-        <link href="https://zhouzewen8369.github.io/post/5-23/">
+        <id>http://localhost:4001/post/5-23/</id>
+        <link href="http://localhost:4001/post/5-23/">
         </link>
         <updated>2020-05-23T04:58:15.000Z</updated>
         <content type="html"><![CDATA[<h3 id="常用网站"><strong>常用网站</strong></h3>
@@ -932,8 +932,8 @@ end
     </entry>
     <entry>
         <title type="html"><![CDATA[math 机器学习数学基础【黄海广】]]></title>
-        <id>https://zhouzewen8369.github.io/post/math/</id>
-        <link href="https://zhouzewen8369.github.io/post/math/">
+        <id>http://localhost:4001/post/math/</id>
+        <link href="http://localhost:4001/post/math/">
         </link>
         <updated>2020-05-23T03:20:20.000Z</updated>
         <content type="html"><![CDATA[<h3 id="高等数学">高等数学</h3>
@@ -1650,8 +1650,8 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>https://zhouzewen8369.github.io/post/about/</id>
-        <link href="https://zhouzewen8369.github.io/post/about/">
+        <id>http://localhost:4001/post/about/</id>
+        <link href="http://localhost:4001/post/about/">
         </link>
         <updated>2019-01-25T11:09:48.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -1664,16 +1664,16 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
 <h4 id="电影-旅游-lol-python">电影 旅游 LOL python</h4>
 <h2 id="联系我呀">📬 联系我呀</h2>
-<h4 id="18435168369">18435168369  🍉</h4>
-<h4 id="zhouzw0323foxmailcom">zhouzw0323@foxmail.com  💼</h4>
-<h4 id="httpsspacebilibilicom21296246">https://space.bilibili.com/21296246  🍻</h4>
-<h4 id="httpswwwdoubancompeople175087689">https://www.douban.com/people/175087689/  🎨</h4>
+<h4 id="手机18435168369">手机：18435168369  🍉</h4>
+<h4 id="邮箱zhouzw0323foxmailcom">邮箱：zhouzw0323@foxmail.com  💼</h4>
+<h4 id="b站"><a href="https://space.bilibili.com/21296246">B站</a>  🍻</h4>
+<h4 id="豆瓣"><a href="https://www.douban.com/people/175087689/">豆瓣</a>  🎨</h4>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://zhouzewen8369.github.io/post/hello-gridea/</id>
-        <link href="https://zhouzewen8369.github.io/post/hello-gridea/">
+        <id>http://localhost:4001/post/hello-gridea/</id>
+        <link href="http://localhost:4001/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
