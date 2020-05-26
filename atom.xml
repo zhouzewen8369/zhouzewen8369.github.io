@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhouzewen8369.github.io/</id>
     <title>zhouzw</title>
-    <updated>2020-05-26T13:54:05.552Z</updated>
+    <updated>2020-05-26T14:12:12.706Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhouzewen8369.github.io/"/>
     <link rel="self" href="https://zhouzewen8369.github.io/atom.xml"/>
@@ -16,9 +16,9 @@
         <link href="https://zhouzewen8369.github.io/post/markdown-zi-ji-lian-xi/">
         </link>
         <updated>2020-05-26T13:03:22.000Z</updated>
-        <summary type="html"><![CDATA[<p>学习之后自己进行练习，粗斜体列表代码块等</p>
+        <summary type="html"><![CDATA[<p>学习之后自己进行练习，粗斜体、列表、代码块等</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>学习之后自己进行练习，粗斜体列表代码块等</p>
+        <content type="html"><![CDATA[<p>学习之后自己进行练习，粗斜体、列表、代码块等</p>
 <!-- more -->
 <h1 id="learn-markdown-各种语法">Learn-Markdown 各种语法</h1>
 <p><s><mark><em><strong>高亮</strong></em></mark></s> <sub>下标</sub> <sup>上标</sup></p>
@@ -28,12 +28,12 @@
 <li>爱的世界了哈</li>
 </ol>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2495472"><label class="task-list-item-label" for="task-item-2495472"> 待办事项</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-262331"> 已完成<br>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7962799"><label class="task-list-item-label" for="task-item-7962799"> 待办事项</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9330540"> 已完成<br>
 百度搜索 <a href="http://baidu.com/">link</a><br>
 图片<img src="https://sdfestaticassets-us-east-1.sciencedirectassets.com/shared-assets/24/images/elsevier-non-solus-new-grey.svg" alt="Alt"  /><br>
 单行代码 <code>import numpy as np</code><br>
-<label class="task-list-item-label" for="task-item-262331"> 已完成
+<label class="task-list-item-label" for="task-item-9330540"> 已完成
 百度搜索 [link](http://baidu.com/)
 图片<img src="https://sdfestaticassets-us-east-1.sciencedirectassets.com/shared-assets/24/images/elsevier-non-solus-new-grey.svg" alt="Alt"  />
 单行代码 `import numpy as np`
@@ -104,8 +104,8 @@ n\in\mathbb N</annotation></semantics></math></span><span class="katex-html" ari
 <li>thehhehgrteret</li>
 </ul>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6987808"><label class="task-list-item-label" for="task-item-6987808">  dfarr</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1729093"><label class="task-list-item-label" for="task-item-1729093">  dafd</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7543158"><label class="task-list-item-label" for="task-item-7543158">  dfarr</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6760767"><label class="task-list-item-label" for="task-item-6760767">  dafd</label></li>
 </ul>
 <blockquote>
 <p>dafdasf</p>
@@ -125,7 +125,7 @@ n\in\mathbb N</annotation></semantics></math></span><span class="katex-html" ari
 </tbody>
 </table>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9151810"><label class="task-list-item-label" for="task-item-9151810"> 列表</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9387981"><label class="task-list-item-label" for="task-item-9387981"> 列表</label></li>
 </ul>
 <h1 id="自己练习的画图">自己练习的画图</h1>
 <h2 id="流程图">流程图</h2>
@@ -162,12 +162,17 @@ havetime-.没有.-&gt;心痒痒,下次吧-.-&gt;jieshu
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MarkDown基础【转自B站】]]></title>
+        <title type="html"><![CDATA[MarkDown 基础+画图【转自B站】]]></title>
         <id>https://zhouzewen8369.github.io/post/markdown-ji-chu/</id>
         <link href="https://zhouzewen8369.github.io/post/markdown-ji-chu/">
         </link>
         <updated>2020-05-26T12:54:58.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="https://www.bilibili.com/video/BV1C7411V7SF">转自B站</a></p>
+        <summary type="html"><![CDATA[<p>基础语法、流程图、饼图、甘特图<br>
+<a href="https://www.bilibili.com/video/BV1C7411V7SF">转自B站</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>基础语法、流程图、饼图、甘特图<br>
+<a href="https://www.bilibili.com/video/BV1C7411V7SF">转自B站</a></p>
+<!-- more -->
 <h1 id="up主分享的原文">up主分享的原文</h1>
 <p><a href="https://www.bilibili.com/video/av87982836#reply2366896129">基础篇视频讲解链接</a><br>
 <a href="https://www.bilibili.com/video/av88551739/">画图篇视频讲解链接</a></p>
@@ -928,7 +933,11 @@ end
         <link href="https://zhouzewen8369.github.io/post/5-23/">
         </link>
         <updated>2020-05-23T04:58:15.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="常用网站"><strong>常用网站</strong></h3>
+        <summary type="html"><![CDATA[<p>平常的任务记录</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>平常的任务记录</p>
+<!-- more -->
+<h3 id="常用网站"><strong>常用网站</strong></h3>
 <ul>
 <li><strong><a href="https://www.bilibili.com/" title="Bilibili">B站</a></strong> 影音娱乐</li>
 </ul>
@@ -940,7 +949,11 @@ end
         <link href="https://zhouzewen8369.github.io/post/math/">
         </link>
         <updated>2020-05-23T03:20:20.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="高等数学">高等数学</h3>
+        <summary type="html"><![CDATA[<p>数学基础：高数、线代、概率统计</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>数学基础：高数、线代、概率统计</p>
+<!-- more -->
+<h3 id="高等数学">高等数学</h3>
 <h4 id="1导数定义">1.导数定义：</h4>
 <p>导数和微分的概念</p>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>f</mi><mo mathvariant="normal">′</mo></msup><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>)</mo><mo>=</mo><msub><mo><mo><mi>lim</mi><mo>⁡</mo></mo></mo><mrow><mi mathvariant="normal">Δ</mi><mi>x</mi><mo>→</mo><mn>0</mn></mrow></msub><mtext> </mtext><mfrac><mrow><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>+</mo><mi mathvariant="normal">Δ</mi><mi>x</mi><mo>)</mo><mo>−</mo><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>)</mo></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>x</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">f&#x27;({{x}_{0}})=\underset{\Delta x\to 0}{\mathop{\lim }}\,\frac{f({{x}_{0}}+\Delta x)-f({{x}_{0}})}{\Delta x}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.001892em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.751892em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord"><span class="mord"><span class="mord mathdefault">x</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.754331em;vertical-align:-0.744331em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-2.055669em;margin-left:0em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">Δ</span><span class="mord mathdefault mtight">x</span><span class="mrel mtight">→</span><span class="mord mtight">0</span></span></span></span><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span><span class="mop"><span class="mop"><span class="mop">lim</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.744331em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.01em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">Δ</span><span class="mord mathdefault mtight">x</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span><span class="mopen mtight">(</span><span class="mord mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">x</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span><span class="mbin mtight">+</span><span class="mord mtight">Δ</span><span class="mord mathdefault mtight">x</span><span class="mclose mtight">)</span><span class="mbin mtight">−</span><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span><span class="mopen mtight">(</span><span class="mord mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">x</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span><span class="mclose mtight">)</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> （1）</p>
