@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhouzewen8369.github.io/</id>
     <title>zhouzw</title>
-    <updated>2020-05-28T05:19:11.436Z</updated>
+    <updated>2020-05-28T07:47:25.415Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhouzewen8369.github.io/"/>
     <link rel="self" href="https://zhouzewen8369.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://zhouzewen8369.github.io/images/avatar.png</logo>
     <icon>https://zhouzewen8369.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, zhouzw</rights>
+    <entry>
+        <title type="html"><![CDATA[日常]]></title>
+        <id>https://zhouzewen8369.github.io/post/日常/</id>
+        <link href="https://zhouzewen8369.github.io/post/日常/">
+        </link>
+        <updated>2020-05-28T07:47:09.000Z</updated>
+        <summary type="html"><![CDATA[<p>记录一些<strong>有趣的观点</strong>和<strong>知识盲点</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>记录一些<strong>有趣的观点</strong>和<strong>知识盲点</strong></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[常用网站和软件]]></title>
         <id>https://zhouzewen8369.github.io/post/chang-yong-wang-zhan-he-ruan-jian/</id>
@@ -43,17 +54,6 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>基础语法、流程图、饼图、甘特图<br>
 <a href="https://www.bilibili.com/video/BV1C7411V7SF">转自B站</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[日常]]></title>
-        <id>https://zhouzewen8369.github.io/post/5-23/</id>
-        <link href="https://zhouzewen8369.github.io/post/5-23/">
-        </link>
-        <updated>2020-05-23T04:58:15.000Z</updated>
-        <summary type="html"><![CDATA[<p>记录一些<strong>有趣的观点</strong>和<strong>知识盲点</strong></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>记录一些<strong>有趣的观点</strong>和<strong>知识盲点</strong></p>
 ]]></content>
     </entry>
     <entry>
