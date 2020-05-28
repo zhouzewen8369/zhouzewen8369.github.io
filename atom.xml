@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhouzewen8369.github.io/</id>
     <title>zhouzw</title>
-    <updated>2020-05-28T03:46:06.575Z</updated>
+    <updated>2020-05-28T03:48:27.698Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhouzewen8369.github.io/"/>
     <link rel="self" href="https://zhouzewen8369.github.io/atom.xml"/>
@@ -27,9 +27,9 @@
         <link href="https://zhouzewen8369.github.io/post/markdown-zi-ji-lian-xi/">
         </link>
         <updated>2020-05-26T13:03:22.000Z</updated>
-        <summary type="html"><![CDATA[<p>学习之后自己进行练习，粗斜体、列表、代码块等</p>
+        <summary type="html"><![CDATA[<p>学习之后自己进行练习，粗斜体、列表、代码块、饼图、流程图等</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>学习之后自己进行练习，粗斜体、列表、代码块等</p>
+        <content type="html"><![CDATA[<p>学习之后自己进行练习，粗斜体、列表、代码块、饼图、流程图等</p>
 ]]></content>
     </entry>
     <entry>
