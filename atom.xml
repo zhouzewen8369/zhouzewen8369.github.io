@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhouzewen8369.github.io/</id>
     <title>zhouzw</title>
-    <updated>2020-05-29T07:12:07.547Z</updated>
+    <updated>2020-06-01T08:20:20.993Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhouzewen8369.github.io/"/>
     <link rel="self" href="https://zhouzewen8369.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://zhouzewen8369.github.io/images/avatar.png</logo>
     <icon>https://zhouzewen8369.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, zhouzw</rights>
+    <entry>
+        <title type="html"><![CDATA[流形学习-LLE]]></title>
+        <id>https://zhouzewen8369.github.io/post/liu-xing-xue-xi-lle/</id>
+        <link href="https://zhouzewen8369.github.io/post/liu-xing-xue-xi-lle/">
+        </link>
+        <updated>2020-06-01T08:15:23.000Z</updated>
+        <summary type="html"><![CDATA[<p>局部线性嵌入(Locally Linear Embedding，以下简称LLE)也是非常重要的降维方法。和传统的PCA，LDA等关注样本方差的降维方法相比，LLE关注于降维时保持样本局部的线性特征，由于LLE在降维时保持了样本的局部特征，它广泛的用于图像图像识别，高维数据可视化等领域。下面我们就对LLE的原理做一个总结。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>局部线性嵌入(Locally Linear Embedding，以下简称LLE)也是非常重要的降维方法。和传统的PCA，LDA等关注样本方差的降维方法相比，LLE关注于降维时保持样本局部的线性特征，由于LLE在降维时保持了样本的局部特征，它广泛的用于图像图像识别，高维数据可视化等领域。下面我们就对LLE的原理做一个总结。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Typora 常用快捷键]]></title>
         <id>https://zhouzewen8369.github.io/post/typora-chang-yong-kuai-jie-jian/</id>
