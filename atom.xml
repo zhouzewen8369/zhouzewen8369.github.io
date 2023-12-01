@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zhouzewen8369.github.io/</id>
+    <title>zhouzw</title>
+    <updated>2023-12-01T22:56:03.850Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://zhouzewen8369.github.io/"/>
+    <link rel="self" href="https://zhouzewen8369.github.io/atom.xml"/>
+    <subtitle>知行合一</subtitle>
+    <logo>https://zhouzewen8369.github.io/images/avatar.png</logo>
+    <icon>https://zhouzewen8369.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, zhouzw</rights>
+    <entry>
+        <title type="html"><![CDATA[流形学习-LLE]]></title>
+        <id>https://zhouzewen8369.github.io/post/liu-xing-xue-xi-lle/</id>
+        <link href="https://zhouzewen8369.github.io/post/liu-xing-xue-xi-lle/">
+        </link>
+        <updated>2020-06-01T08:15:23.000Z</updated>
+        <summary type="html"><![CDATA[<p>局部线性嵌入(Locally Linear Embedding，以下简称LLE)也是非常重要的降维方法。和传统的PCA，LDA等关注样本方差的降维方法相比，LLE关注于降维时保持样本局部的线性特征，由于LLE在降维时保持了样本的局部特征，它广泛的用于图像图像识别，高维数据可视化等领域。下面我们就对LLE的原理做一个总结。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>局部线性嵌入(Locally Linear Embedding，以下简称LLE)也是非常重要的降维方法。和传统的PCA，LDA等关注样本方差的降维方法相比，LLE关注于降维时保持样本局部的线性特征，由于LLE在降维时保持了样本的局部特征，它广泛的用于图像图像识别，高维数据可视化等领域。下面我们就对LLE的原理做一个总结。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typora 常用快捷键]]></title>
+        <id>https://zhouzewen8369.github.io/post/typora-chang-yong-kuai-jie-jian/</id>
+        <link href="https://zhouzewen8369.github.io/post/typora-chang-yong-kuai-jie-jian/">
+        </link>
+        <updated>2020-05-29T07:06:23.000Z</updated>
+        <summary type="html"><![CDATA[<p>Typora👨‍🎨☀️👨‍💻 文件、编辑、Markdown语法、格式、视图</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Typora👨‍🎨☀️👨‍💻 文件、编辑、Markdown语法、格式、视图</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日常]]></title>
+        <id>https://zhouzewen8369.github.io/post/日常/</id>
+        <link href="https://zhouzewen8369.github.io/post/日常/">
+        </link>
+        <updated>2020-05-27T17:47:09.000Z</updated>
+        <summary type="html"><![CDATA[<p>记录一些<strong>有趣的观点</strong>和<strong>知识盲点</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>记录一些<strong>有趣的观点</strong>和<strong>知识盲点</strong></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[常用网站和软件]]></title>
+        <id>https://zhouzewen8369.github.io/post/chang-yong-wang-zhan-he-ruan-jian/</id>
+        <link href="https://zhouzewen8369.github.io/post/chang-yong-wang-zhan-he-ruan-jian/">
+        </link>
+        <updated>2020-05-27T11:11:02.000Z</updated>
+        <summary type="html"><![CDATA[<p>记录一些我自己的<strong>使用体验</strong>💼😃</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>记录一些我自己的<strong>使用体验</strong>💼😃</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown自己练习]]></title>
+        <id>https://zhouzewen8369.github.io/post/markdown-zi-ji-lian-xi/</id>
+        <link href="https://zhouzewen8369.github.io/post/markdown-zi-ji-lian-xi/">
+        </link>
+        <updated>2020-05-26T13:03:22.000Z</updated>
+        <summary type="html"><![CDATA[<p>学习之后自己进行练习，粗斜体、列表、代码块、饼图、流程图等</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>学习之后自己进行练习，粗斜体、列表、代码块、饼图、流程图等</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MarkDown 基础+画图【转自B站】]]></title>
+        <id>https://zhouzewen8369.github.io/post/markdown-ji-chu/</id>
+        <link href="https://zhouzewen8369.github.io/post/markdown-ji-chu/">
+        </link>
+        <updated>2020-05-26T12:54:58.000Z</updated>
+        <summary type="html"><![CDATA[<p>基础语法、流程图、饼图、甘特图<br>
+<a href="https://www.bilibili.com/video/BV1C7411V7SF">转自B站</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>基础语法、流程图、饼图、甘特图<br>
+<a href="https://www.bilibili.com/video/BV1C7411V7SF">转自B站</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[math 机器学习数学基础【黄海广】]]></title>
+        <id>https://zhouzewen8369.github.io/post/math/</id>
+        <link href="https://zhouzewen8369.github.io/post/math/">
+        </link>
+        <updated>2020-05-22T13:20:20.000Z</updated>
+        <summary type="html"><![CDATA[<p>数学基础：高数、线代、概率统计</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>数学基础：高数、线代、概率统计</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://zhouzewen8369.github.io/post/about/</id>
+        <link href="https://zhouzewen8369.github.io/post/about/">
+        </link>
+        <updated>2020-05-20T11:09:48.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://zhouzewen8369.github.io/post/hello-gridea/</id>
+        <link href="https://zhouzewen8369.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></content>
+    </entry>
+</feed>
